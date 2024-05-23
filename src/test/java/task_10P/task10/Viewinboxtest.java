@@ -26,7 +26,7 @@ public class Viewinboxtest {
 		
 		Viewinbox views= new Viewinbox();
 		views.setontrackinfo(oninfo);
-		String tutormessages = views.messages();
-		Assert.assertEquals("Well done", tutormessages);
+		String tutormessage = views.messages();
+		Assert.assertEquals("Well done", tutormessage);
 	}
 }

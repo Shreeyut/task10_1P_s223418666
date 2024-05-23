@@ -14,4 +14,5 @@ public class Viewinbox {
 	public void setontrackinfo(ontrackinfo oinfo) {
 		this.oinfo = oinfo;
 	}
+	
 }
